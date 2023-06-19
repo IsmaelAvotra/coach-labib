@@ -6,13 +6,25 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    colors: {
+      rose: '#F29DAF',
+      brown: '#83584F',
+      brownBlack: '#443535',
+      white: '#ffffff',
+      textColor: '#5E5E5E',
+      black: '#020202',
     },
+    fontSize: {
+      link: ['16px', { lineHeight: '24px', letterSpacing: '-0.03em' }],
+      textSize: ['20px', { lineHeight: '30px' }],
+      textGras: ['28px', { lineHeight: '36px', letterSpacing: '-0.03em' }],
+      textService: ['32px', { lineHeight: '38px', letterSpacing: '-0.03em' }],
+      titleBanner: ['64px', { lineHeight: '72px', letterSpacing: '0.04em' }],
+    },
+    boxShadow: {
+      image: '18px 12px 16px -7px rgba(0, 0, 0, 0.29)',
+    },
+    extend: {},
   },
   plugins: [],
 }
