@@ -22,9 +22,3 @@ body {
   position: absolute;
   top: 2rem;
 }
-
-.service-content {
-  background-image: url(/public/bgservice.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}

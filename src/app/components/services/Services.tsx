@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className='mt-32 service-content relative " '>
       <div className='title mb-16 '>
-        <h2 className='text-brown text-titleBanner font-bold mb-4 relative discover'>
+        <h2 className='text-brown text-titleBanner font-semibold mb-4 relative discover'>
           Nos services<span className='text-rose'>.</span>
         </h2>
         <p className='text-textSize mb-6 text-textColor '>
