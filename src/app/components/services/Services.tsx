@@ -1,9 +1,10 @@
 import { services } from '@/app/data/services'
+import './Services.css'
 import Image from 'next/image'
 
 const Services = () => {
   return (
-    <div className='mt-32 service-content relative " '>
+    <div className='services mt-32 service-content relative " '>
       <div className='title mb-16 '>
         <h2 className='text-brown text-titleBanner font-semibold mb-4 relative discover'>
           Nos services<span className='text-rose'>.</span>
@@ -12,12 +13,12 @@ const Services = () => {
           Découvrez nos services avec coach Labib.
         </p>
       </div>
-      <div className='flex justify-between '>
+      <div className='content-service flex justify-between '>
         {services.map((service, index) => {
           return (
             <div
               key={index}
-              className={`bg-white px-4 py-8 text-center flex items-center flex-col gap-10 w-[285px] h-[420px] rounded-[20px]
+              className={` carte bg-white px-4 py-8 text-center flex items-center flex-col gap-10 w-[285px] h-[420px] rounded-[20px]
               ${index % 2 == 0 ? 'mt-0' : 'mt-12'}`}
             >
               <div className='top'>
@@ -35,7 +36,7 @@ const Services = () => {
               ></div>
               <div className='bottom'>
                 <p
-                  className={`text-textService font-bold ${
+                  className={`service-name text-textService font-bold ${
                     index % 2 == 0 ? 'text-rose' : 'text-brown'
                   }`}
                 >
@@ -51,7 +52,7 @@ const Services = () => {
         alt='background service'
         width={1100}
         height={980}
-        className='absolute top-0 -z-10 right-[-32px] '
+        className='image1 absolute top-0 -z-10 right-[-32px] '
       />
       <Image
         src='/bgserv.png'

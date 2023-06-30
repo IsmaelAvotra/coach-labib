@@ -2,6 +2,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import { GiEarthAmerica } from 'react-icons/gi'
 import Image from 'next/image'
+import './Reservation.css'
 
 const Reservation = () => {
   return (
@@ -18,8 +19,8 @@ const Reservation = () => {
           vous.
         </p>
       </div>
-      <div className=' flex gap-16'>
-        <div className='flex flex-col gap-6 flex-1'>
+      <div className=' formulair flex gap-16'>
+        <div className=' flex flex-col gap-6 flex-1'>
           <input
             type='text'
             placeholder='Nom'
@@ -51,7 +52,7 @@ const Reservation = () => {
               <p className='text-textSize font-bold uppercase tracking-wide text-brown'>
                 Telephone
               </p>
-              <p className='text-textSize text-rose'>07 01 11 11 01</p>
+              <p className='text-textSize text-rose info'>07 01 11 11 01</p>
             </div>
           </div>
           <div className='flex gap-6 items-center'>
@@ -60,7 +61,7 @@ const Reservation = () => {
               <p className='text-textSize font-bold uppercase tracking-wide text-brown'>
                 Email
               </p>
-              <p className='text-textSize text-rose'>
+              <p className='text-textSize text-rose info'>
                 ibtissamlabibcoaching@gmail.com
               </p>
             </div>
@@ -71,7 +72,7 @@ const Reservation = () => {
               <p className='text-textSize font-bold uppercase tracking-wide text-brown'>
                 Adress
               </p>
-              <p className='text-textSize text-rose'>
+              <p className='text-textSize text-rose info'>
                 Lot n407 Bd général el kettani hay kellez, etg 2 Apt 6 Settat
               </p>
             </div>
@@ -82,7 +83,7 @@ const Reservation = () => {
           alt='background reservation'
           width={1500}
           height={1000}
-          className='absolute top-[-250px] left[-320px] -z-10 w-[1560px]'
+          className='absolute top-[-250px] left-20 -z-10 w-[1560px]'
         />
       </div>
     </div>

@@ -2,11 +2,12 @@
 import { testimonials } from '@/app/data/testimonials'
 import Image from 'next/image'
 import React, { useState } from 'react'
+import './Testimonials.css'
 
 const Testimonials = () => {
   const [index, setIndex] = useState<number>(2)
   return (
-    <div className='mt-32 px-[300px]'>
+    <div className='testimonials mt-32 px-[300px]'>
       <div className='title text-center mb-12'>
         <h2 className='text-brown text-titleBanner font-semibold mb-4 '>
           Témoignage clients<span className='text-rose'>.</span>
@@ -19,10 +20,10 @@ const Testimonials = () => {
       <div className='text'>
         <div className='quote flex justify-between items-center'>
           <span className='text-rose text-titleBanner font-bold'>"</span>
-          <div className='h-[2px] w-[300px] bg-brownBlack'></div>
+          <div className='divider h-[2px] w-[300px] bg-brownBlack'></div>
           <span className='text-rose text-titleBanner font-bold'>"</span>
         </div>
-        <p className='text-textSize mb-6 text-textColor'>
+        <p className='text-textSize mb-6 text-textColor test-text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel
           lobortis tincidunt fames quisque mauris at diam. Nullam morbi ipsum
           turpis amet id posuere torto quis nostrud exercitation ullamco laboris

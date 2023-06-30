@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import React from 'react'
+import './Banner.css'
 
 const Banner = () => {
   return (
-    <div className='flex items-center gap-8 '>
+    <div className='banner flex items-center gap-8 '>
       <div className='text flex-1'>
         <h2 className='title1 text-brown text-titleBanner font-bold relative'>
           Vers une vie

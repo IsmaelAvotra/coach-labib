@@ -1,8 +1,9 @@
+import './About.css'
 import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className='flex items-center  mt-16 '>
+    <div className='about flex items-center  mt-16 '>
       <div className='image flex-1 relative'>
         <Image
           src='/about.png'

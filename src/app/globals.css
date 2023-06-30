@@ -11,14 +11,14 @@ body {
   overflow-x: hidden;
 }
 
-.title1::after {
-  content: url(/butterfly.png);
-  position: absolute;
-  right: 5rem;
+@media screen and (max-width: 1100px) {
+  .home {
+    padding: 0 2rem;
+  }
 }
 
-.discover::after {
-  content: url(/butterfly.png);
-  position: absolute;
-  top: 2rem;
+@media screen and (max-width: 460px) {
+  .home {
+    padding: 0 1rem;
+  }
 }

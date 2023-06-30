@@ -1,7 +1,8 @@
 import { links } from '@/app/data/links'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import { FiMenu } from 'react-icons/fi'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
@@ -28,6 +29,9 @@ const Navbar = () => {
             </button>
           </ul>
         </nav>
+      </div>
+      <div className='menu text-[24px] text-brown hidden'>
+        <FiMenu />
       </div>
     </div>
   )

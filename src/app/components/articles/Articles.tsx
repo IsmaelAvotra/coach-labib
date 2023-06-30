@@ -1,10 +1,10 @@
 import { articles } from '@/app/data/articles'
 import Image from 'next/image'
-import React from 'react'
+import './Articles.css'
 
 const Articles = () => {
   return (
-    <div className='flex flex-col items-center mb-20'>
+    <div className='articles flex flex-col items-center mb-20'>
       <div className='title text-center mb-16'>
         <h2 className='text-brown text-titleBanner font-semibold mb-4 '>
           Articles<span className='text-rose'>.</span>
@@ -13,7 +13,7 @@ const Articles = () => {
           Découvrez nos articles pour des contenus riches et captivants.
         </p>
       </div>
-      <div className='container grid grid-cols-2 gap-12'>
+      <div className='main-content grid grid-cols-2 gap-12'>
         {articles.map((article, index) => {
           return (
             <div key={index} className=' p-4'>
@@ -33,7 +33,9 @@ const Articles = () => {
                 <p className='mt-2 text-[24px] font-bold'>
                   {article.articleName}
                 </p>
-                <p className='text-link  text-textColor '>{article.para}</p>
+                <p className='para text-link  text-textColor '>
+                  {article.para}
+                </p>
               </div>
             </div>
           )

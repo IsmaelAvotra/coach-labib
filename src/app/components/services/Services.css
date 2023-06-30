@@ -1,0 +1,92 @@
+.discover::after {
+  content: url(/butterfly.png);
+  position: absolute;
+  top: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .carte {
+    width: 270px;
+  }
+  .image1 {
+    right: -64px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .carte {
+    width: 300px;
+    margin-top: 0;
+    box-shadow: 0.5px 0.5px 2px #f8c9d2;
+    margin: 2rem;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .carte {
+    width: 40%;
+  }
+
+  .main-content {
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .carte {
+    width: 100%;
+    padding: 1rem;
+    height: 400px;
+  }
+
+  .content-service {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    padding: 0;
+    gap: 2rem;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .services {
+    margin-top: 5rem;
+  }
+  .services .title {
+    margin-bottom: 2rem;
+  }
+  .services h2 {
+    font-size: 36px;
+    line-height: 38px;
+    margin-bottom: 0.5rem;
+  }
+
+  .discover::after {
+    content: url(/butterfly.png);
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 50px;
+  }
+
+  .services p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 1rem;
+  }
+
+  .carte {
+    height: 360px;
+  }
+
+  .service-name {
+    font-size: 1.5rem !important;
+    letter-spacing: 0.5px;
+  }
+}
