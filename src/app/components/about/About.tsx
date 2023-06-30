@@ -4,7 +4,11 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div className='about flex items-center  mt-16 '>
-      <div className='image flex-1 relative'>
+      <div
+        className='image flex-1 relative'
+        data-aos='fade-right'
+        data-aos-delay='500'
+      >
         <Image
           src='/about.png'
           alt='about image'
@@ -19,7 +23,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className='text flex-1'>
+      <div className='text flex-1' data-aos='fade-up' data-aos-delay='500'>
         <h2 className='text-brown text-titleBanner font-bold mb-6 '>
           Coach Labib<span className='text-rose'>.</span>
         </h2>

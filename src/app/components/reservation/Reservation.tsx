@@ -6,7 +6,7 @@ import './Reservation.css'
 
 const Reservation = () => {
   return (
-    <div className='reservation mt-24 mb-20 relative '>
+    <div className='reservation mt-24 mb-20 relative  '>
       <div className='title mb-10'>
         <h2 className='text-brown text-titleBanner font-semibold mb-4 '>
           Réservez votre séance<span className='text-rose'>.</span>
@@ -19,7 +19,11 @@ const Reservation = () => {
           vous.
         </p>
       </div>
-      <div className=' formulair flex gap-16'>
+      <div
+        className=' formulair flex gap-16'
+        data-aos='fade-right'
+        data-aos-delay='500'
+      >
         <div className=' flex flex-col gap-6 flex-1'>
           <input
             type='text'
@@ -45,7 +49,11 @@ const Reservation = () => {
             Envoyer
           </button>
         </div>
-        <div className='coordonees flex flex-col gap-8 flex-1'>
+        <div
+          className='coordonees flex flex-col gap-8 flex-1'
+          data-aos='fade-left'
+          data-aos-delay='500'
+        >
           <div className='flex gap-6 items-center'>
             <BsFillTelephoneFill className='text-textGras' />
             <div className='phone'>

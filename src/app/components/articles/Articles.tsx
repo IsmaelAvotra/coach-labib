@@ -16,7 +16,12 @@ const Articles = () => {
       <div className='main-content grid grid-cols-2 gap-12'>
         {articles.map((article, index) => {
           return (
-            <div key={index} className=' p-4'>
+            <div
+              key={index}
+              className=' p-4 '
+              data-aos='fade-up'
+              data-aos-delay='400'
+            >
               <div className='top mb-4'>
                 <Image
                   src={article.imageUrl}

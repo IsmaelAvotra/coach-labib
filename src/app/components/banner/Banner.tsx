@@ -4,7 +4,7 @@ import './Banner.css'
 const Banner = () => {
   return (
     <div className='banner flex items-center gap-8 '>
-      <div className='text flex-1'>
+      <div className='text flex-1' data-aos='fade-right' data-aos-delay='400'>
         <h2 className='title1 text-brown text-titleBanner font-bold relative'>
           Vers une vie
         </h2>
@@ -21,7 +21,7 @@ const Banner = () => {
           Réserver
         </button>
       </div>
-      <div className='image flex-1'>
+      <div className='image flex-1' data-aos='fade-left' data-aos-delay='400'>
         <Image src='/banner.png' alt='image banner' width={680} height={620} />
       </div>
     </div>
