@@ -29,7 +29,7 @@ const Navbar = () => {
         <Image src='/logo.png' alt='coach labib logo' width={250} height={50} />
       </div>
       <div className='links'>
-        <nav className={isVisible ? 'isVisible' : ''}>
+        <nav className={isVisible ? 'isVisible' : 'overflow-hidden'}>
           <ul className='flex items-center gap-8'>
             {links.map((item, index) => {
               return (
@@ -37,6 +37,7 @@ const Navbar = () => {
                   href={item.to}
                   key={index}
                   className='text-link text-brown'
+                  onClick={() => setIsVisible(false)}
                 >
                   {item.link}
                 </Link>

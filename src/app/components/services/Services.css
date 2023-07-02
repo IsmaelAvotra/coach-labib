@@ -5,8 +5,12 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .content-service {
+    gap: 2rem;
+  }
   .carte {
-    width: 270px;
+    width: 300px;
+    height: 380px;
   }
   .image1 {
     right: -64px;
@@ -14,27 +18,19 @@
 }
 
 @media screen and (max-width: 1100px) {
+  .content-service {
+    flex-wrap: wrap;
+  }
   .carte {
-    width: 300px;
     margin-top: 0;
     box-shadow: 0.5px 0.5px 2px #f8c9d2;
     margin: 2rem;
-  }
-
-  .main-content {
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
 
 @media screen and (max-width: 960px) {
   .carte {
     width: 40%;
-  }
-
-  .main-content {
-    justify-content: center;
-    gap: 4rem;
   }
 }
 

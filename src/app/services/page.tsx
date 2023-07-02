@@ -19,7 +19,7 @@ const Services = () => {
   }, [])
 
   return (
-    <div className='overflow-hidden px-16'>
+    <div className='servicesPage overflow-hidden px-20 '>
       <div className='services-content'>
         <div className='title text-center mt-16 mb-12'>
           <h2 className='text-brown text-titleBanner font-semibold mb-2 '>
@@ -34,11 +34,15 @@ const Services = () => {
             return (
               <div
                 key={indx}
-                className={`flex items-center gap-16 ${
+                className={`service-desc flex items-center gap-16 ${
                   indx % 2 == 0 ? 'flex-row' : 'flex-row-reverse'
                 }`}
               >
-                <div className='image-service flex-1 bg-white  py-12 px-8 rounded-[16px] shadow-image'>
+                <div
+                  className='image-service flex-1 bg-white  py-12 px-8 rounded-[16px] shadow-image'
+                  data-aos='fade-right'
+                  data-aos-delay='400'
+                >
                   <Image
                     src={service.imageUrl}
                     alt={service.title}
@@ -47,7 +51,11 @@ const Services = () => {
                     className='w-[90%]'
                   />
                 </div>
-                <div className='text-services flex-[2]'>
+                <div
+                  className='text-services flex-[2]'
+                  data-aos='fade-left'
+                  data-aos-delay='400'
+                >
                   <h3
                     className={`text-textGras  font-semibold mb-2 ${
                       indx % 2 == 0 ? 'text-rose' : 'text-brown'
@@ -55,7 +63,7 @@ const Services = () => {
                   >
                     {service.title}
                   </h3>
-                  <p className='text-[18px] text-textColor '>
+                  <p className='descr text-[18px] text-textColor '>
                     {service.description}
                   </p>
                 </div>

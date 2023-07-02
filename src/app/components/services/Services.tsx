@@ -13,12 +13,12 @@ const Services = () => {
           Découvrez nos services avec coach Labib.
         </p>
       </div>
-      <div className='content-service flex justify-between '>
+      <div className='content-service flex gap-12 justify-center  '>
         {services.map((service, index) => {
           return (
             <div
               key={index}
-              className={` carte bg-white px-4 py-8 text-center flex items-center flex-col gap-10 w-[285px] h-[420px] rounded-[20px]
+              className={` carte bg-white px-4 py-8 text-center flex items-center flex-col gap-10 w-[300px] h-[420px] rounded-[20px]
               ${index % 2 == 0 ? 'mt-0' : 'mt-12'}`}
               data-aos='fade-up'
               data-aos-delay={500}
