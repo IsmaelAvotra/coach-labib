@@ -33,9 +33,8 @@ const Services = () => {
         <div className='main-content grid grid-cols-2 gap-12'>
           {articles.map((article) => {
             return (
-              <Link href={`/articles/${article.id}`}>
+              <Link href={`/articles/${article.id}`} key={article.id}>
                 <div
-                  key={article.id}
                   className='article-card p-4  cursor-pointer rounded-lg'
                   data-aos='fade-up'
                   data-aos-delay='400'
