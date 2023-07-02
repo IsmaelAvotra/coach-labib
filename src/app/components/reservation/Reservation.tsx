@@ -6,7 +6,7 @@ import './Reservation.css'
 
 const Reservation = () => {
   return (
-    <div className='reservation mt-24 mb-20 relative  '>
+    <div className='reservation mt-24 mb-20 relative  ' id='reservation'>
       <div className='title mb-10'>
         <h2 className='text-brown text-titleBanner font-semibold mb-4 '>
           Réservez votre séance<span className='text-rose'>.</span>
@@ -53,6 +53,7 @@ const Reservation = () => {
           className='coordonees flex flex-col gap-8 flex-1'
           data-aos='fade-left'
           data-aos-delay='500'
+          id='contact'
         >
           <div className='flex gap-6 items-center'>
             <BsFillTelephoneFill className='text-textGras' />

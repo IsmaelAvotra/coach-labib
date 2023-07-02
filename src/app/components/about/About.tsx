@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className='about flex items-center  mt-16 '>
+    <div className='about flex items-center  mt-16 ' id='about'>
       <div
         className='image flex-1 relative'
         data-aos='fade-right'

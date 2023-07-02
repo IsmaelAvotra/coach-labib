@@ -1,4 +1,5 @@
 interface Articles {
+  id: string
   imageUrl: string
   date: string
   articleName: string
@@ -7,24 +8,28 @@ interface Articles {
 
 export const articles: Articles[] = [
   {
+    id: '1',
     imageUrl: '/article1.png',
     date: 'June 12,2023',
     articleName: 'Le développement personnel',
     para: 'Ad praetensionem exprimere est eu poenam ea asperiores, s’triumphator si ab consultationumd est.',
   },
   {
+    id: '2',
     imageUrl: '/article2.png',
     date: 'June 12,2023',
     articleName: 'Le coaching scolaire',
     para: 'Ad praetensionem exprimere est eu poenam ea asperiores, s’triumphator si ab consultationumd est.',
   },
   {
+    id: '3',
     imageUrl: '/article3.png',
     date: 'June 12,2023',
     articleName: 'Le coaching professionnel',
     para: 'Ad praetensionem exprimere est eu poenam ea asperiores, s’triumphator si ab consultationumd est.',
   },
   {
+    id: '4',
     imageUrl: '/article4.png',
     date: 'June 12,2023',
     articleName: "L'art thérapie",

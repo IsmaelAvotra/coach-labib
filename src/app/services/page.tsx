@@ -39,7 +39,7 @@ const Services = () => {
                 }`}
               >
                 <div
-                  className='image-service flex-1 bg-white  py-12 px-8 rounded-[16px] shadow-image'
+                  className='image-service flex-1 bg-white  py-12 px-8 rounded-[16px] '
                   data-aos='fade-right'
                   data-aos-delay='400'
                 >

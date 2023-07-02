@@ -4,7 +4,7 @@ import './Articles.css'
 
 const Articles = () => {
   return (
-    <div className='articles flex flex-col items-center mb-20'>
+    <div className='articles flex flex-col items-center mb-20 ' id='articles'>
       <div className='title text-center mb-16'>
         <h2 className='text-brown text-titleBanner font-semibold mb-4 '>
           Articles<span className='text-rose'>.</span>
@@ -14,10 +14,10 @@ const Articles = () => {
         </p>
       </div>
       <div className='main-content grid grid-cols-2 gap-12'>
-        {articles.map((article, index) => {
+        {articles.map((article) => {
           return (
             <div
-              key={index}
+              key={article.id}
               className=' p-4 '
               data-aos='fade-up'
               data-aos-delay='400'

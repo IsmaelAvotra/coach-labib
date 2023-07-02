@@ -1,0 +1,46 @@
+.article-card {
+  transition: 0.5s ease-in-out;
+}
+.article-card:hover {
+  box-shadow: 2px 2px 5px #bf877e;
+}
+
+@media screen and (max-width: 1280px) {
+  .articlesPage {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .articlesPage {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .articlesPage h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .articlesPage {
+    padding: 0 1rem;
+  }
+
+  .articlesPage h2 {
+    font-size: 36px;
+    line-height: 38px;
+    margin-bottom: 0.5rem;
+  }
+
+  .articlesPage .title p {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .articlesPage img {
+    width: 100%;
+  }
+}

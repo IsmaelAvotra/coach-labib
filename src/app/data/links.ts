@@ -5,8 +5,8 @@ interface Links {
 
 export const links: Links[] = [
   { link: 'Accueil', to: '/' },
-  { link: 'Coach Labib', to: '/about' },
+  { link: 'Coach Labib', to: '/#about' },
   { link: 'Services', to: '/services' },
   { link: 'Articles', to: '/articles' },
-  { link: 'Contact', to: '/Contact' },
+  { link: 'Contact', to: '/#reservation' },
 ]
