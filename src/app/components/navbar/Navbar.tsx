@@ -43,7 +43,7 @@ const Navbar = () => {
                 </Link>
               )
             })}
-            <button className='bg-rose px-6 py-2 rounded-full text-link text-white font-semibold'>
+            <button className='bg-rose px-6 py-2 rounded-full text-link text-white font-semibold '>
               Réservation
             </button>
           </ul>

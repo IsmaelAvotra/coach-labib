@@ -15,6 +15,17 @@ html {
   scroll-behavior: smooth;
 }
 
+button {
+  border: 0.8px solid transparent;
+  transition: 0.4s ease-in-out;
+}
+
+button:hover {
+  border-color: #f29daf;
+  color: #83584f;
+  background-color: transparent;
+}
+
 @media screen and (max-width: 1100px) {
   .home {
     padding: 0 2rem;
