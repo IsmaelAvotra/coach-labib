@@ -13,7 +13,7 @@ import Image from 'next/image'
 const Services = () => {
   useEffect(() => {
     Aos.init({
-      duration: 2500,
+      duration: 1000,
       delay: 400,
     })
   }, [])
@@ -33,8 +33,9 @@ const Services = () => {
           {servicesPages.map((service, indx) => {
             return (
               <div
+                id={service.idUrl}
                 key={indx}
-                className={`service-desc flex items-center gap-16 ${
+                className={` service-desc flex items-center gap-16 ${
                   indx % 2 == 0 ? 'flex-row' : 'flex-row-reverse'
                 }`}
               >

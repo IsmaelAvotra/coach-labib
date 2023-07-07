@@ -14,7 +14,7 @@ import Link from 'next/link'
 const Services = () => {
   useEffect(() => {
     Aos.init({
-      duration: 2500,
+      duration: 1000,
       delay: 400,
     })
   }, [])

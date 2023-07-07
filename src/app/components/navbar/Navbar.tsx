@@ -36,16 +36,19 @@ const Navbar = () => {
                 <Link
                   href={item.to}
                   key={index}
-                  className='text-link text-brown'
+                  className='link-nav text-link text-[#83584f]'
                   onClick={() => setIsVisible(false)}
                 >
                   {item.link}
                 </Link>
               )
             })}
-            <button className='bg-rose px-6 py-2 rounded-full text-link text-white font-semibold '>
+            <a
+              className=' btn bg-rose px-6 py-2 rounded-full text-link text-white font-semibold'
+              href='/#reservation'
+            >
               Réservation
-            </button>
+            </a>
           </ul>
         </nav>
       </div>

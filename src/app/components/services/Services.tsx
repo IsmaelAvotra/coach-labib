@@ -1,6 +1,7 @@
 import { services } from '@/app/data/services'
 import './Services.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Services = () => {
   return (
@@ -16,7 +17,8 @@ const Services = () => {
       <div className='content-service flex gap-12 justify-center  '>
         {services.map((service, index) => {
           return (
-            <div
+            <Link
+              href={service.href}
               key={index}
               className={` carte bg-white px-4 py-8 text-center flex items-center flex-col gap-10 w-[300px] h-[420px] rounded-[20px]
               ${index % 2 == 0 ? 'mt-0' : 'mt-12'}`}
@@ -33,19 +35,19 @@ const Services = () => {
               </div>
               <div
                 className={`w-[60%] h-[2px] ${
-                  index % 2 == 0 ? 'bg-brown' : 'bg-rose'
+                  index % 2 == 0 ? 'bg-[#83584F]' : 'bg-rose'
                 }  `}
               ></div>
               <div className='bottom'>
                 <p
                   className={`service-name text-textService font-bold ${
-                    index % 2 == 0 ? 'text-rose' : 'text-brown'
+                    index % 2 == 0 ? 'text-rose' : 'text-[#83584F]'
                   }`}
                 >
                   {service.serviceName}
                 </p>
               </div>
-            </div>
+            </Link>
           )
         })}
       </div>
@@ -54,7 +56,7 @@ const Services = () => {
         alt='background service'
         width={1100}
         height={980}
-        className='image1 absolute top-0 -z-10 right-[-32px] '
+        className='image1 absolute top-0 -z-10 right-[-64px] '
       />
       <Image
         src='/bgserv.png'

@@ -1,4 +1,4 @@
-.navbar nav ul a::after {
+.navbar nav ul .link-nav::after {
   content: '';
   height: 2px;
   width: 0;
@@ -7,7 +7,7 @@
   transition: 0.5s ease-in-out;
 }
 
-.navbar ul a:hover::after {
+.navbar ul .link-nav:hover::after {
   content: '';
   height: 2px;
   width: 100%;

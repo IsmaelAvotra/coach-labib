@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope', sans-serif;
   max-width: 1560px;
   margin: 0 auto;
   overflow-x: hidden;
@@ -15,12 +15,14 @@ html {
   scroll-behavior: smooth;
 }
 
-button {
+button,
+.btn {
   border: 0.8px solid transparent;
   transition: 0.4s ease-in-out;
 }
 
-button:hover {
+button:hover,
+.btn:hover {
   border-color: #f29daf;
   color: #83584f;
   background-color: transparent;

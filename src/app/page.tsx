@@ -14,7 +14,7 @@ import { useEffect } from 'react'
 export default function Home() {
   useEffect(() => {
     Aos.init({
-      duration: 2500,
+      duration: 1000,
       delay: 400,
     })
   }, [])

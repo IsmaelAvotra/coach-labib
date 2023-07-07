@@ -18,7 +18,7 @@ const Banner = () => {
           votre succès et votre bonheur global.
         </p>
         <button className='bg-rose px-6 py-2 rounded-full text-link text-white font-semibold'>
-          Réserver
+          <a href='/#reservation'>Réserver</a>
         </button>
       </div>
       <div className='image flex-1' data-aos='fade-left' data-aos-delay='400'>
