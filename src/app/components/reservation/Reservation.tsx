@@ -24,18 +24,20 @@ const Reservation = () => {
         <div className=' flex flex-col gap-6 flex-1'>
           <input
             type='text'
-            placeholder='Nom'
+            placeholder='Nom *'
             className='styled-input px-4 py-2 bg-white   rounded-[20px] placeholder:text-link w-[90%]'
+            required
           />
           <input
             type='text'
-            placeholder='Email'
-            className='px-4 py-2 bg-white   rounded-[20px] placeholder:text-link w-[90%]'
+            placeholder='Email '
+            className='px-4 py-2 bg-[#fff]   rounded-[20px] placeholder:text-link w-[90%]'
           />
           <input
             type='text'
-            placeholder='Numero Telephone'
+            placeholder='Numero Telephone *'
             className='px-4 py-2 bg-white  rounded-[20px] placeholder:text-link w-[90%]'
+            required
           />
           <input
             type='text'

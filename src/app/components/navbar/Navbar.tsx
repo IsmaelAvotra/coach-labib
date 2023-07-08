@@ -38,6 +38,7 @@ const Navbar = () => {
                   key={index}
                   className='link-nav text-link text-[#83584f]'
                   onClick={() => setIsVisible(false)}
+                  scroll={false}
                 >
                   {item.link}
                 </Link>

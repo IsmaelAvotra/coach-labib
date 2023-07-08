@@ -24,11 +24,7 @@ const Testimonials = () => {
           <span className='text-rose text-titleBanner font-bold'>"</span>
         </div>
         <p className='text-textSize mb-6 text-textColor test-text'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel
-          lobortis tincidunt fames quisque mauris at diam. Nullam morbi ipsum
-          turpis amet id posuere torto quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore.
+          {testimonials[index]['testi']}
         </p>
       </div>
       <div className='profils mt-10 flex justify-center gap-16 cursor-pointer'>
