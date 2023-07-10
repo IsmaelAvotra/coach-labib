@@ -35,6 +35,10 @@
 }
 
 @media screen and (max-width: 850px) {
+  .image1 {
+    top: 200px;
+    height: 2000px;
+  }
   .carte {
     width: 100%;
     padding: 1rem;

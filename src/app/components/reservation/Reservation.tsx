@@ -166,7 +166,7 @@ const Reservation = () => {
           alt='background reservation'
           width={1500}
           height={1000}
-          className='absolute top-[-400px] left-16 -z-10 w-[1560px]'
+          className='bg1 absolute top-[-400px] left-16 -z-10 w-[1560px]'
         />
       </div>
       <Image

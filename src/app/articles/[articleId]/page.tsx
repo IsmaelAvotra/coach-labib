@@ -24,7 +24,7 @@ export default function ArticleDetail({
   })
 
   return (
-    <div className=' articlePage px-8 overflow-hidden mt-8'>
+    <div className=' articleDetail px-8 overflow-hidden mt-8'>
       <div className='aticle-top'>
         {article ? (
           <div className='article-content  min-h-[100vh]'>
@@ -47,9 +47,11 @@ export default function ArticleDetail({
                 className='rounded-[24px]'
               />
             </div>
-            <p className='text-[20px] text-[#222] mb-4'>"{article.summary}"</p>
+            <p className='summary text-[20px] text-[#222] mb-4'>
+              "{article.summary}"
+            </p>
             <div className='intro'>
-              <p className='text-[#83584f] font-semibold text-[28px] mb-2'>
+              <p className='intro-text text-[#83584f] font-semibold text-[28px] mb-2'>
                 Introduction :
               </p>
               <p className='text-textColor text-textSize mb-4'>
@@ -57,7 +59,7 @@ export default function ArticleDetail({
               </p>
             </div>
             <div className='conclusion'>
-              <p className='text-[#83584f] font-semibold text-[28px] mb-2'>
+              <p className='text-[#83584f] font-semibold text-[28px] mb-2 conclu-text'>
                 Conclusion :
               </p>
               <p className='text-textColor text-textSize'>

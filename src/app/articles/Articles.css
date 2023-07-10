@@ -30,8 +30,37 @@
 }
 
 @media screen and (max-width: 500px) {
+  .articleDetail {
+    padding: 0 1rem;
+  }
   .articlesPage {
     padding: 0 1rem;
+  }
+  .articleDetail h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 1rem;
+  }
+
+  .image-art img {
+    width: 100vw;
+    height: auto;
+  }
+
+  .summary {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro-text,
+  .conclu-text {
+    font-size: 22px !important;
+  }
+
+  .intro p,
+  .conclusion p {
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .articlesPage h2 {
