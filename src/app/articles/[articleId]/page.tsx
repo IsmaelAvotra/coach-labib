@@ -38,7 +38,7 @@ export default function ArticleDetail({
                 <p>{article.date}</p>
               </div>
             </div>
-            <div className='image-art   w-screen mb-4'>
+            <div className='image-art mb-4'>
               <Image
                 src={article.imageUrl}
                 alt={article.articleName}
