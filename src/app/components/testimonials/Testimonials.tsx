@@ -32,7 +32,7 @@ const Testimonials = () => {
           return (
             <div
               key={idx}
-              className='flex flex-col items-center'
+              className='flex flex-col items-center '
               onClick={() => setIndex(idx)}
             >
               <div className='top mb-4'>
@@ -44,7 +44,7 @@ const Testimonials = () => {
                   className={`${
                     idx == index
                       ? 'border-4 border-rose rounded-full w-[70px] h-[70-px]'
-                      : 'border-0'
+                      : 'border-0 '
                   }`}
                 />
               </div>
@@ -52,7 +52,7 @@ const Testimonials = () => {
                 <p
                   className={`${
                     idx == index
-                      ? 'text-textSize text-brownBlack font-bold mb-1'
+                      ? 'name text-textSize text-brownBlack font-bold mb-1'
                       : 'hidden'
                   }`}
                 >
@@ -60,7 +60,7 @@ const Testimonials = () => {
                 </p>
                 <p
                   className={`${
-                    idx == index ? 'text-link' : 'hidden text-brown'
+                    idx == index ? 'text-link role' : ' hidden text-brown'
                   }`}
                 >
                   {testimonial.work}

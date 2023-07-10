@@ -57,6 +57,14 @@
   }
 
   .testimonials .profils {
-    display: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .testimonials .profils .name {
+    font-size: 14px;
+  }
+  .testimonials .profils .role {
+    font-size: 12px;
   }
 }
