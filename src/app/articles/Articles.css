@@ -1,3 +1,8 @@
+.image-art img {
+  width: 96vw;
+  height: 450px;
+  object-fit: cover;
+}
 .article-card {
   transition: 0.5s ease-in-out;
 }
