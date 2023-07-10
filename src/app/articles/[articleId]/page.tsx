@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 export default function Page({ params }: { params: { articleId: string } }) {
   useEffect(() => {
     Aos.init({
-      duration: 2500,
+      duration: 1000,
       delay: 400,
     })
   }, [])
@@ -18,7 +18,7 @@ export default function Page({ params }: { params: { articleId: string } }) {
   })
 
   return (
-    <div className='articlePage  px-20'>
+    <div className='articlePage px-8'>
       {article ? (
         <div className='article-content'>My Post: {article?.articleName}</div>
       ) : (

@@ -38,18 +38,18 @@ const Footer = () => {
         <div className='pages flex flex-1 flex-col gap-2 text-link text-brown'>
           <p className='text-[18px] font-bold mb-4'>Pages</p>
           <Link href='/'>Accueil</Link>
-          <Link href='/'>Coach Labib </Link>
-          <Link href='/'>Services</Link>
-          <Link href='/'>Réservation</Link>
-          <Link href='/'>Contact</Link>
-          <Link href='/'>Articles</Link>
+          <Link href='/#about'>Coach Labib </Link>
+          <Link href='/services'>Services</Link>
+          <Link href='/#reservation'>Réservation</Link>
+          <Link href='/#reservation'>Contact</Link>
+          <Link href='/articles'>Articles</Link>
         </div>
         <div className='service  flex flex-1 flex-col gap-2 text-link text-brown'>
           <p className='text-[18px] font-bold mb-4'>Service</p>
-          <Link href='/'>Coaching Personnel</Link>
-          <Link href='/'>Coaching Professionnel</Link>
-          <Link href='/'>Coaching Scolaire</Link>
-          <Link href='/'>Art Thérapie</Link>
+          <Link href='/services/#service1'>Coaching Personnel</Link>
+          <Link href='/services/#service2'>Coaching Professionnel</Link>
+          <Link href='/services/#service3'>Coaching Scolaire</Link>
+          <Link href='/services/#service4'>Art Thérapie</Link>
         </div>
         <div className='contact  flex flex-1 flex-col gap-2 text-brown'>
           <p className='text-[18px] font-bold mb-4 contct'>Contact</p>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
           <div className='email flex items-center gap-2'>
             <AiOutlineMail className='text-[20px] text-brownBlack' />
-            <p>ibtissamlabibcoaching@gmail.com</p>
+            <p>labibcoach@gmail.com</p>
           </div>
           <div className='location flex items-center gap-2'>
             <MdOutlineLocationOn className='text-[40px] text-brownBlack location' />

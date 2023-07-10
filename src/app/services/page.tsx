@@ -13,7 +13,7 @@ import Image from 'next/image'
 const Services = () => {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 900,
       delay: 400,
     })
   }, [])

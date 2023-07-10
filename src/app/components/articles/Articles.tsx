@@ -1,6 +1,7 @@
 import { articles } from '@/app/data/articles'
 import Image from 'next/image'
 import './Articles.css'
+import Link from 'next/link'
 
 const Articles = () => {
   return (
@@ -16,33 +17,34 @@ const Articles = () => {
       <div className='main-content grid grid-cols-2 gap-12'>
         {articles.map((article) => {
           return (
-            <div
-              key={article.id}
-              className=' p-4 '
-              data-aos='fade-up'
-              data-aos-delay='400'
-            >
-              <div className='top mb-4'>
-                <Image
-                  src={article.imageUrl}
-                  alt={article.articleName}
-                  width={580}
-                  height={450}
-                  className='rounded-[24px]'
-                />
+            <Link href={`/articles/${article.id}`} key={article.id}>
+              <div
+                className='article-card p-4  cursor-pointer rounded-lg'
+                data-aos='fade-up'
+                data-aos-delay='400'
+              >
+                <div className='top mb-4'>
+                  <Image
+                    src={article.imageUrl}
+                    alt={article.articleName}
+                    width={580}
+                    height={450}
+                    className='rounded-[24px]'
+                  />
+                </div>
+                <div className='bottom'>
+                  <span className='text-[14px] text-[#2e3e5c]/80'>
+                    {article.date}
+                  </span>
+                  <p className='mt-2 text-[24px] font-bold'>
+                    {article.articleName}
+                  </p>
+                  <p className='para text-link  text-textColor '>
+                    {article.para}
+                  </p>
+                </div>
               </div>
-              <div className='bottom'>
-                <span className='text-[14px] text-[#2e3e5c]/80'>
-                  {article.date}
-                </span>
-                <p className='mt-2 text-[24px] font-bold'>
-                  {article.articleName}
-                </p>
-                <p className='para text-link  text-textColor '>
-                  {article.para}
-                </p>
-              </div>
-            </div>
+            </Link>
           )
         })}
       </div>
