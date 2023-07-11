@@ -24,7 +24,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className='navbar px-10 py-5 flex items-center justify-between'>
+    <div className='navbar relative px-10 py-5 flex items-center justify-between'>
       <Link className='logo' href='/'>
         <Image src='/logo.png' alt='coach labib logo' width={250} height={50} />
       </Link>

@@ -16,6 +16,9 @@
 }
 
 @media screen and (max-width: 960px) {
+  .bannerbg {
+    display: none;
+  }
   .navbar {
     background-color: #ffffff;
     padding: 1rem;

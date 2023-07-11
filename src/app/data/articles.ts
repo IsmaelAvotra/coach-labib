@@ -13,7 +13,7 @@ interface Articles {
 export const articles: Articles[] = [
   {
     id: '1',
-    imageUrl: '/article1.png',
+    imageUrl: '/article1.jpg',
     date: 'June 12,2023',
     articleName: 'Le développement personnel',
     para: 'Ad praetensionem exprimere est eu poenam ea asperiores, s’triumphator si ab consultationumd est.',
@@ -27,7 +27,7 @@ export const articles: Articles[] = [
   },
   {
     id: '2',
-    imageUrl: '/article2.png',
+    imageUrl: '/article2.jpg',
     date: 'June 12,2023',
     articleName: 'Le coaching scolaire',
     para: 'Ad praetensionem exprimere est eu poenam ea asperiores, s’triumphator si ab consultationumd est.',
@@ -44,7 +44,7 @@ export const articles: Articles[] = [
   },
   {
     id: '3',
-    imageUrl: '/article3.png',
+    imageUrl: '/article3.jpg',
     date: 'June 12,2023',
     articleName: 'Le coaching professionnel',
     para: 'Ad praetensionem exprimere est eu poenam ea asperiores, s’triumphator si ab consultationumd est.',
@@ -61,7 +61,7 @@ export const articles: Articles[] = [
   },
   {
     id: '4',
-    imageUrl: '/article4.png',
+    imageUrl: '/article4.jpg',
     date: 'June 12,2023',
     articleName: "L'art thérapie",
     para: 'Ad praetensionem exprimere est eu poenam ea asperiores, s’triumphator si ab consultationumd est.',

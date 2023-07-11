@@ -19,7 +19,7 @@ const Articles = () => {
           return (
             <Link href={`/articles/${article.id}`} key={article.id}>
               <div
-                className='article-card p-4  cursor-pointer rounded-lg'
+                className='article-card p-4  cursor-pointer rounded-lg flex flex-col items-center'
                 data-aos='fade-up'
                 data-aos-delay='400'
               >

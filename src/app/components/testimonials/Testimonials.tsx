@@ -39,11 +39,11 @@ const Testimonials = () => {
                 <Image
                   src={testimonial.imageUrl}
                   alt='testimonial profile'
-                  width={50}
-                  height={50}
-                  className={`${
+                  width={1000}
+                  height={667}
+                  className={`image-testi w-[70px] h-[70px] rounded-full object-cover ${
                     idx == index
-                      ? 'border-4 border-rose rounded-full w-[70px] h-[70-px]'
+                      ? 'w-[80px] h-[80px] border-4 border-rose  '
                       : 'border-0 '
                   }`}
                 />

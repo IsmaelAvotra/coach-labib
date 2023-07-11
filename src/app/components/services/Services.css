@@ -37,7 +37,7 @@
 @media screen and (max-width: 850px) {
   .image1 {
     top: 200px;
-    height: 2000px;
+    height: 1500px;
   }
   .carte {
     width: 100%;
@@ -55,6 +55,9 @@
 }
 
 @media screen and (max-width: 460px) {
+  .image1 {
+    height: 2200px;
+  }
   .services {
     margin-top: 5rem;
   }

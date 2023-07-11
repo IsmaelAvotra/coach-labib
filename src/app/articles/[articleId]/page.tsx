@@ -24,8 +24,17 @@ export default function ArticleDetail({
   })
 
   return (
-    <div className=' articleDetail px-8 overflow-hidden mt-8'>
-      <div className='aticle-top'>
+    <div className=' articleDetail overflow-hidden'>
+      <div className='mindfull'>
+        <Image
+          src='/mindfullness.png'
+          alt='mindfullness image'
+          width={1440}
+          height={132}
+          className='image-mindfull'
+        />
+      </div>
+      <div className='article-top px-8 mt-8 '>
         {article ? (
           <div className='article-content  min-h-[100vh]'>
             <div className='title'>
@@ -73,7 +82,7 @@ export default function ArticleDetail({
       </div>
       <div className='line w-[80vw] h-[1px] bg-rose mt-10 m-auto'></div>
 
-      <div className='share flex gap-2 mt-8'>
+      <div className='share flex gap-2 mt-8 px-8'>
         <p className='text-[22px] text-[#222]/80'>Share this :</p>
         <div className='rs flex items-center gap-4 text-[26px] text-rose '>
           <FaFacebook />
@@ -81,8 +90,9 @@ export default function ArticleDetail({
           <FaInstagram />
         </div>
       </div>
-      <div className='more'></div>
-      <Reservation />
+      <div className='reservation-art px-8 '>
+        <Reservation />
+      </div>
     </div>
   )
 }

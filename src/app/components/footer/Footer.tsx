@@ -51,7 +51,7 @@ const Footer = () => {
           <Link href='/services/#service3'>Coaching Scolaire</Link>
           <Link href='/services/#service4'>Art Thérapie</Link>
         </div>
-        <div className='contact  flex flex-[1.5] flex-col  gap-2 text-brown'>
+        <div className='contact   flex flex-[1.5] flex-col  gap-2 text-brown'>
           <p className='text-[18px] font-bold mb-4 contct'>Contact</p>
           <div className='phone flex items-start  gap-2'>
             <svg

@@ -20,7 +20,7 @@ const Services = () => {
             <Link
               href={service.href}
               key={index}
-              className={` carte bg-white px-4 py-8 text-center flex items-center flex-col gap-10 w-[300px] h-[420px] rounded-[20px]
+              className={` carte bg-white border-[.5px]border-transparent hover:border-[red] px-4 py-8 text-center flex items-center flex-col gap-10 w-[300px] h-[420px] rounded-[20px]
               ${index % 2 == 0 ? 'mt-0' : 'mt-12'}`}
               data-aos='fade-up'
               data-aos-delay={500}

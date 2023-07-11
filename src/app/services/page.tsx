@@ -19,8 +19,17 @@ const Services = () => {
   }, [])
 
   return (
-    <div className='servicesPage overflow-hidden px-20 '>
-      <div className='services-content'>
+    <div className='servicesPage overflow-hidden   '>
+      <div className='mindfull'>
+        <Image
+          src='/mindfullness.png'
+          alt='mindfullness image'
+          width={1440}
+          height={132}
+          className='image-mindfull'
+        />
+      </div>
+      <div className='services-content px-20'>
         <div className='title text-center mt-16 mb-12'>
           <h2 className='text-brown text-titleBanner font-semibold mb-2 '>
             Services<span className='text-rose'>.</span>
@@ -59,7 +68,7 @@ const Services = () => {
                 >
                   <h3
                     className={`text-textGras  font-semibold mb-2 ${
-                      indx % 2 == 0 ? 'text-rose' : 'text-brown'
+                      indx % 2 == 0 ? 'text-rose' : 'text-[#83584f]'
                     }`}
                   >
                     {service.title}
@@ -72,8 +81,8 @@ const Services = () => {
             )
           })}
         </div>
+        <Reservation />
       </div>
-      <Reservation />
     </div>
   )
 }

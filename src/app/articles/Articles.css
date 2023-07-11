@@ -3,6 +3,7 @@
   height: 450px;
   object-fit: cover;
 }
+
 .article-card {
   transition: 0.5s ease-in-out;
 }
@@ -11,13 +12,13 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .articlesPage {
+  .articlesContent {
     padding: 0 4rem;
   }
 }
 
 @media screen and (max-width: 1080px) {
-  .articlesPage {
+  .articlesContent {
     padding: 0 2rem;
   }
 }
@@ -27,19 +28,30 @@
     font-size: 56px;
     line-height: 64px;
   }
+  .reservation-art {
+    padding: 0 1rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .articleDetail {
+  .article-top {
     padding: 0 1rem;
   }
-  .articlesPage {
+  .articlesContent {
     padding: 0 1rem;
   }
   .articleDetail h2 {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 1rem;
+  }
+
+  .share {
+    padding: 0 1rem;
+  }
+
+  .share p {
+    font-size: 1rem;
   }
 
   .image-art img {
