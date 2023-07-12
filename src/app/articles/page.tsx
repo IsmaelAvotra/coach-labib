@@ -27,7 +27,7 @@ const Services = () => {
           alt='mindfullness image'
           width={1440}
           height={132}
-          className='image-mindfull'
+          className='image-mindfull '
         />
       </div>
       <div className='articlesContent px-20'>

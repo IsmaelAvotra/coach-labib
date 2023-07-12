@@ -31,7 +31,7 @@ export default function ArticleDetail({
           alt='mindfullness image'
           width={1440}
           height={132}
-          className='image-mindfull'
+          className='image-mindfull  object-cover'
         />
       </div>
       <div className='article-top px-8 mt-8 '>
