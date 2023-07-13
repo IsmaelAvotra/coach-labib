@@ -9,18 +9,19 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { servicesPages } from '../data/services_pages'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Services = () => {
   useEffect(() => {
     Aos.init({
-      duration: 900,
+      duration: 500,
       delay: 400,
     })
   }, [])
 
   return (
     <div className='servicesPage overflow-hidden   '>
-      <div className='mindfull'>
+      <div className='mindfull relative'>
         <Image
           src='/mindfullness.png'
           alt='mindfullness image'
@@ -28,6 +29,11 @@ const Services = () => {
           height={132}
           className='image-mindfull'
         />
+        <div className='text absolute left-8 top-[50%] flex gap-4 text-[20px]  text-white'>
+          <Link href='/'>Accueil</Link>
+          <p>&gt;</p>
+          <Link href='/services'>Services</Link>
+        </div>
       </div>
       <div className='services-content px-20'>
         <div className='title text-center mt-16 mb-12'>

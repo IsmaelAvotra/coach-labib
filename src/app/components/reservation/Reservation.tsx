@@ -19,7 +19,7 @@ const Reservation = () => {
       <div
         className=' formulair flex gap-16'
         data-aos='fade-right'
-        data-aos-delay='500'
+        data-aos-delay='400'
       >
         <div className=' flex flex-col gap-6 flex-1'>
           <input
@@ -51,8 +51,7 @@ const Reservation = () => {
         <div
           className='coordonees flex flex-col gap-8 flex-1'
           data-aos='fade-left'
-          data-aos-delay='500'
-          id='contact'
+          data-aos-delay='400'
         >
           <div className='flex gap-6 items-center'>
             <svg

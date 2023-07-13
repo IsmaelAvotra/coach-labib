@@ -7,7 +7,7 @@ const About = () => {
       <div
         className='image flex-1 relative'
         data-aos='fade-right'
-        data-aos-delay='500'
+        data-aos-delay='400'
       >
         <Image
           src='/about.png'
@@ -23,13 +23,15 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className='text flex-1' data-aos='fade-up' data-aos-delay='500'>
+      <div className='text flex-1' data-aos='fade-up' data-aos-delay='400'>
         <h2 className='text-brown text-titleBanner font-bold mb-6 '>
           Coach Labib<span className='text-rose'>.</span>
         </h2>
         <p className='text-textSize mb-6 text-textColor'>
           Salut! Je suis{' '}
-          <span className='text-gras font-bold text-black'>Ibtissam Labib</span>{' '}
+          <span className='text-gras font-bold text-brownBlack'>
+            Ibtissam Labib
+          </span>{' '}
           et mon super pouvoir est de vous aider à vivre votre vie personnelle
           et professionnelle pleinement ! En travaillant avec moi en tant que
           coach personnel et professionnel, vous bénéficierez d'un espace de
@@ -38,9 +40,6 @@ const About = () => {
           vous aiderai à clarifier vos objectifs, à élaborer des plans d'action
           concrets et à rester responsable de votre progression.
         </p>
-        <button className='bg-rose px-6 py-3 rounded-full text-link text-white font-semibold'>
-          En savoir plus sur mon histoire.
-        </button>
       </div>
     </div>
   )

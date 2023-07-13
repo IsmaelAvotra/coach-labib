@@ -27,11 +27,21 @@ const Footer = () => {
           Vous pouvez aussi me suivre sur Instagram pour être au courant de
           toutes les nouveautés !
         </p>
-        <div className='socials flex gap-6 text-white'>
-          <FaFacebookF className='text-[24px]' />
-          <FaTwitter className='text-[24px]' />
-          <FaLinkedin className='text-[24px]' />
-          <FaInstagram className='text-[24px]' />
+        <div className='socials flex  text-white'>
+          <Link
+            href='https://www.facebook.com/profile.php?id=100093673635935&mibextid=LQQJ4d'
+            className='hover:scale-110 transition-all'
+            target='_blank'
+          >
+            <FaFacebookF className='text-[24px]' />
+          </Link>
+          <Link
+            href='https://www.instagram.com/coachlabib/?igshid=MzRlODBiNWFlZA%3D%3D'
+            className='hover:scale-110 transition-all'
+            target='_blank'
+          >
+            <FaInstagram className='text-[24px]' />
+          </Link>
         </div>
       </div>
       <div className='right flex-1 flex justify-between '>

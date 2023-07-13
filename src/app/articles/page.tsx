@@ -14,14 +14,14 @@ import Link from 'next/link'
 const Services = () => {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 500,
       delay: 400,
     })
   }, [])
 
   return (
     <div className='articlesPage overflow-hidden '>
-      <div className='mindfull'>
+      <div className='mindfull relative'>
         <Image
           src='/mindfullness.png'
           alt='mindfullness image'
@@ -29,6 +29,11 @@ const Services = () => {
           height={132}
           className='image-mindfull '
         />
+        <div className='text absolute left-8 top-[50%] flex gap-4 text-[20px]  text-white'>
+          <Link href='/'>Accueil</Link>
+          <p>&gt;</p>
+          <Link href='/articles'>Articles</Link>
+        </div>
       </div>
       <div className='articlesContent px-20'>
         <div className='title text-center mt-16 mb-12'>
