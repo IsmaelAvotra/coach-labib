@@ -4,6 +4,7 @@ import { articles } from '@/app/data/articles'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useEffect } from 'react'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 
@@ -14,7 +15,7 @@ export default function ArticleDetail({
 }) {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 500,
       delay: 400,
     })
   }, [])
@@ -25,7 +26,7 @@ export default function ArticleDetail({
 
   return (
     <div className=' articleDetail overflow-hidden'>
-      <div className='mindfull'>
+      <div className='mindfull relative'>
         <Image
           src='/mindfullness.png'
           alt='mindfullness image'
@@ -33,6 +34,18 @@ export default function ArticleDetail({
           height={132}
           className='image-mindfull  object-cover'
         />
+        <div className='text absolute left-8 top-[20%]  text-[20px]  text-white '>
+          <div className='link flex  gap-4'>
+            <Link href='/'>Accueil</Link>
+            <p>&gt;</p>
+            <Link href='/articles'>Articles</Link>
+          </div>
+          <div className='art'>
+            <p className='text-[40px] font-semibold'>
+              Articles <span className='text-rose '>.</span>
+            </p>
+          </div>
+        </div>
       </div>
       <div className='article-top px-8 mt-8 '>
         {article ? (
@@ -86,7 +99,6 @@ export default function ArticleDetail({
         <p className='text-[22px] text-[#222]/80'>Share this :</p>
         <div className='rs flex items-center gap-4 text-[26px] text-rose '>
           <FaFacebook />
-          <FaTwitter />
           <FaInstagram />
         </div>
       </div>
