@@ -31,7 +31,7 @@ export const servicesPages: Service[] = [
     imageUrl: '/service4.png',
     title: 'Art Thérapie',
     description:
-      "Le coaching personnel est un processus d'accompagnement et de développement personnel conçu pour vous aider à atteindre vos objectifs et à surmonter vos obstacles. En travaillant en étroite collaboration avec moi, je vous guiderai dans l'exploration de vos valeurs, de vos croyances limitantes et de vos aspirations profondes. Grâce à des techniques de questionnement, de réflexion et de planification, je vous offre un soutien personnalisé pour favoriser votre croissance personnelle, renforcer votre confiance en soi, améliorer vos compétences de prise de décision et encourager une vie équilibrée et épanouissante.",
+      "L'art thérapie est une approche thérapeutique basée sur l'utilisation de l'expression artistique comme moyen de communication et de guérison. Elle permet aux individus d'explorer leurs émotions, leurs pensées et leurs expériences à travers des médiums artistiques tels que la peinture, le dessin, la sculpture ou l'écriture. A travers l'art thérapie, je vous offre un espace créatif et sécurisant où vous pouvez exprimer votre vécu, surmonter des défis, développer votre estime de soi et favoriser votre bien-être émotionnel. En travaillant avec moi, vous pouvez découvrir de nouvelles perspectives, renforcer votre résilience et trouver des moyens d'exprimer et de transformer vos émotions de manière positive.",
     idUrl: 'service4',
   },
 ]
