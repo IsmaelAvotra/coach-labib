@@ -70,7 +70,7 @@ const Services = () => {
                       {article.articleName}
                     </p>
                     <p className='para text-link  text-textColor '>
-                      {article.para}
+                      {article.introduction.slice(0, 200)} ...
                     </p>
                   </div>
                 </div>

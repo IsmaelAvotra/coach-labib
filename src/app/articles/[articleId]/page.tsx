@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect } from 'react'
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
 export default function ArticleDetail({
   params,
@@ -47,9 +47,9 @@ export default function ArticleDetail({
           </div>
         </div>
       </div>
-      <div className='article-top px-8 mt-8 '>
+      <div className='article-top px-8 mt-8'>
         {article ? (
-          <div className='article-content  min-h-[100vh]'>
+          <div className='article-content '>
             <div className='title'>
               <h2 className='text-brown text-[48px] font-semibold mb-4 '>
                 {article.articleName}
@@ -76,9 +76,35 @@ export default function ArticleDetail({
               <p className='intro-text text-[#83584f] font-semibold text-[28px] mb-2'>
                 Introduction :
               </p>
-              <p className='text-textColor text-textSize mb-4'>
+              <p className='text-textColor text-textSize mb-2'>
                 {article.introduction}
               </p>
+              <div className='text-textColor text-textSize mb-4'>
+                <p className='mb-2'>
+                  <span className='mr-2'>1.</span>
+                  {article.one}
+                </p>
+                <p className='mb-2'>
+                  <span className='mr-2'>2.</span>
+                  {article.two}
+                </p>
+                <p className='mb-2'>
+                  <span className='mr-2'>3.</span>
+                  {article.three}
+                </p>
+                <p className='mb-2'>
+                  <span className='mr-2'>4.</span>
+                  {article.four}
+                </p>
+                <p className='mb-2'>
+                  <span className='mr-2'>5.</span>
+                  {article.five}
+                </p>
+                <p className='mb-2'>
+                  <span className='mr-2'>{article.six ? '6.' : ''}</span>
+                  {article.six ?? article.six}
+                </p>
+              </div>
             </div>
             <div className='conclusion'>
               <p className='text-[#83584f] font-semibold text-[28px] mb-2 conclu-text'>

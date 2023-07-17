@@ -40,7 +40,7 @@ const Articles = () => {
                     {article.articleName}
                   </p>
                   <p className='para text-link  text-textColor '>
-                    {article.introduction.slice(0, 140)} ...
+                    {article.introduction.slice(0, 180)} ...
                   </p>
                 </div>
               </div>

@@ -35,7 +35,7 @@ const Testimonials = () => {
               className='flex flex-col items-center '
               onClick={() => setIndex(idx)}
             >
-              <div className='top mb-4'>
+              <div className='top mb-4 '>
                 <Image
                   src={testimonial.imageUrl}
                   alt='testimonial profile'
