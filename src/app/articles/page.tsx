@@ -20,7 +20,7 @@ const Services = () => {
   }, [])
 
   return (
-    <div className='articlesPage overflow-hidden '>
+    <div className='articlesPage overflow-hidden'>
       <div className='mindfull relative'>
         <Image
           src='/mindfullness.png'
@@ -35,7 +35,7 @@ const Services = () => {
           <Link href='/articles'>Articles</Link>
         </div>
       </div>
-      <div className='articlesContent px-20'>
+      <div className='articlesContent px-20 '>
         <div className='title text-center mt-16 mb-12'>
           <h2 className='text-brown text-titleBanner font-semibold mb-2 '>
             Articles<span className='text-rose'>.</span>

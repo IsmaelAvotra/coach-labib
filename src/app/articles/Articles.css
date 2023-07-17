@@ -15,11 +15,19 @@
   .articlesContent {
     padding: 0 4rem;
   }
+
+  .mindfull .text {
+    top: 12%;
+  }
 }
 
 @media screen and (max-width: 1080px) {
   .articlesContent {
     padding: 0 2rem;
+  }
+
+  .mindfull .text {
+    top: 5%;
   }
 }
 
@@ -71,7 +79,7 @@
 
   .intro p,
   .conclusion p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
   }
 

@@ -23,7 +23,7 @@ const Testimonials = () => {
           <div className='divider h-[2px] w-[300px] bg-brownBlack'></div>
           <span className='text-rose text-titleBanner font-bold'>"</span>
         </div>
-        <p className='text-textSize mb-6 text-textColor test-text'>
+        <p className='text-textSize mb-6 text-textColor test-text text-center'>
           {testimonials[index]['testi']}
         </p>
       </div>

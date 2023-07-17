@@ -54,7 +54,7 @@ const Navbar = () => {
               className=' btn bg-rose px-6 py-2 rounded-full text-link text-white font-semibold'
               href='/#reservation'
             >
-              Réservation
+              Contact
             </a>
           </ul>
         </nav>

@@ -15,7 +15,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     imageUrl: '/testi3.png',
-    name: 'John Doe',
+    name: 'Ahmed Fatouh',
     work: 'Director',
     testi:
       'Coach Labib skillfully helped me define and refine my goals, both personally and professionally. Throughout our coaching journey, the coach demonstrated genuine care and empathy. She celebrated my successes, no matter how small, and provided guidance during challenging times. Her dedication to my growth and development was evident, and I always felt that she had my best interests at heart.',

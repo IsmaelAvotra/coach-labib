@@ -14,7 +14,7 @@ import { MdOutlineLocationOn } from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <div className='bg-[#FBDBCB] p-8 flex gap-8 footer'>
+    <div className='footer bg-[#FBDBCB] p-8 flex gap-8 footer'>
       <div className='left flex-1'>
         <Image
           src='/logo.png'
@@ -44,7 +44,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className='right flex-1 flex justify-between '>
+      <div className='right flex-1  flex justify-between '>
         <div className='pages flex flex-1 flex-col gap-2 text-link text-brown'>
           <p className='text-[18px] font-bold mb-4'>Pages</p>
           <Link href='/'>Accueil</Link>
@@ -61,9 +61,9 @@ const Footer = () => {
           <Link href='/services/#service3'>Coaching Scolaire</Link>
           <Link href='/services/#service4'>Art Thérapie</Link>
         </div>
-        <div className='contact   flex flex-[1.5] flex-col  gap-2 text-brown'>
+        <div className='contact  flex flex-[1.5] flex-col  gap-2 text-brown'>
           <p className='text-[18px] font-bold mb-4 contct'>Contact</p>
-          <div className='phone flex items-start  gap-2'>
+          <div className='phone flex items-center  gap-2 '>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
@@ -101,7 +101,7 @@ const Footer = () => {
               viewBox='0 0 14 19'
               fill='none'
             >
-              <g clip-path='url(#clip0_77_255)'>
+              <g clipPath='url(#clip0_77_255)'>
                 <path
                   d='M6.13594 18.525C4.23281 16.1426 0 10.3684 0 7.125C0 3.18992 3.13396 0 7 0C10.8646 0 14 3.18992 14 7.125C14 10.3684 9.73438 16.1426 7.86406 18.525C7.41562 19.0928 6.58437 19.0928 6.13594 18.525ZM7 9.5C8.28698 9.5 9.33333 8.43496 9.33333 7.125C9.33333 5.81504 8.28698 4.75 7 4.75C5.71302 4.75 4.66667 5.81504 4.66667 7.125C4.66667 8.43496 5.71302 9.5 7 9.5Z'
                   fill='#83584F'
@@ -113,7 +113,10 @@ const Footer = () => {
                 </clipPath>
               </defs>
             </svg>
-            <p>Lot n407 Bd général et kettani hay kellez, etg 2 Apt 6 Settat</p>
+            <p>
+              Lot n407 Bd général et kettani <br />
+              hay kellez, etg 2 Apt 6 Settat
+            </p>
           </div>
         </div>
       </div>

@@ -76,7 +76,7 @@ export default function ArticleDetail({
               <p className='intro-text text-[#83584f] font-semibold text-[28px] mb-2'>
                 Introduction :
               </p>
-              <p className='text-textColor text-textSize mb-2'>
+              <p className='text-textColor  text-textSize mb-2'>
                 {article.introduction}
               </p>
               <div className='text-textColor text-textSize mb-4'>
