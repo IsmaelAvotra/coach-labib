@@ -8,11 +8,7 @@ import Link from 'next/link'
 import { useEffect } from 'react'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
-export default function ArticleDetail({
-  params,
-}: {
-  params: { articleId: string }
-}) {
+export default function ArticleDetail() {
   useEffect(() => {
     Aos.init({
       duration: 500,
@@ -21,7 +17,7 @@ export default function ArticleDetail({
   }, [])
 
   const article = articles.find((article) => {
-    return article.id === params.articleId
+    return article.id === '3'
   })
 
   return (

@@ -17,7 +17,7 @@ const Articles = () => {
       <div className='main-content grid grid-cols-2 gap-12'>
         {articles.map((article) => {
           return (
-            <Link href={`/articles/${article.id}`} key={article.id}>
+            <Link href={`/articles/article${article.id}`} key={article.id}>
               <div
                 className='article-card p-4  cursor-pointer rounded-lg flex flex-col items-center'
                 data-aos='fade-up'
