@@ -15,7 +15,7 @@ const Banner = () => {
           Préparez-vous à vous engager dans un voyage passionnant de croissance
           personnelle et professionnelle. Ensemble, nous construirons les bases
           d'une vie épanouissante, en mettant l'accent sur votre bien-être,
-          votre succès et votre bonheur global.
+          votre succès et votre bonheur global..
         </p>
         <button className='bg-rose px-6 py-2 rounded-full text-link text-white font-semibold'>
           <a href='/#reservation'>Réserver</a>
